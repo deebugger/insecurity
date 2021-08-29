@@ -11,4 +11,4 @@ bootstrap().then(initVals => {
   console.error('Oh no! something bad happened..')
 })
 
-const update = '11:09gmt'
+const update = '11:27gmt'
