@@ -1,0 +1,12 @@
+{
+  "name": "insecutiry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src",
+    "test": "echo 'yay! testing!'"
+  },
+  "author": "",
+  "license": "ISC"
+}

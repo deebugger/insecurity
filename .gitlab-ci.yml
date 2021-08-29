@@ -1,0 +1,6 @@
+build-job:
+  stage: build
+  script:
+    - curl -L "https://get.spectralops.io/latest/x/sh?dsn=$SPECTRAL_DSN_LOCAL" | sh
+    # This takes your SPECTRAL_DSN from the variables store in Gitlab CI/CD
+    - $HOME/.spectral/spectral scan --ok
